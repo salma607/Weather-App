@@ -1,0 +1,132 @@
+body {
+    background: radial-gradient(circle, rgba(186, 48, 175, 1) 8%, rgba(215, 215, 205, 1) 69%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 500px;
+    height: 600px;
+    width: 90%;
+    margin: 60px auto;
+}
+
+.main {
+    border-radius: 35px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ba30af;
+    margin: 10px 10px;
+    padding: 20px 20px;
+}
+
+.search {
+    width: 90%;
+    margin: auto;
+    padding: 10px 10px;
+}
+
+.bk {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.input {
+    height: 40px;
+    width: 250px;
+    border-radius: 35px;
+    margin: 1px 1px;
+    padding: 15px 15px;
+    border-width: 2px;
+    border-color: #ba30af;
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+}
+
+input:focus {
+    outline: none;
+}
+
+ ::placeholder {
+    padding: 10px 5px;
+}
+
+.butt {
+    margin: 10px 10px;
+    border-style: solid;
+    border-color: #ba30af;
+    border-radius: 40px;
+}
+
+.but {
+    border-radius: 70%;
+    border-style: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: white;
+}
+
+.butt .but img {
+    justify-content: center;
+    width: 25px;
+    background-color: white;
+    height: 25px;
+}
+
+.clear img {
+    display: block;
+    margin: auto;
+}
+
+.clear h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #FFE5E5;
+}
+
+.clear h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #FFE5E5;
+}
+
+.city1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 4px;
+    margin: 30px 20px;
+}
+
+.city1 img {
+    width: 50px;
+    height: 50px;
+}
+
+.city1 h3 {
+    display: flex;
+    align-items: center;
+    color: #FAFFAF;
+    font-size: 20px;
+}
+
+.city1 p {
+    color: #FAFFAF;
+    font-size: 20px;
+    display: flex;
+}
+
+.city-humidi-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.city-wind-info {
+    display: flex;
+    flex-direction: column;
+}
