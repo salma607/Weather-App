@@ -26,8 +26,8 @@ body {
 
 .search {
     width: 90%;
-    margin-left:30px  ;
     padding: 10px 10px;
+
 }
 
 .bk {
@@ -36,12 +36,12 @@ body {
     margin: 15px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     .bk {
         margin: 5px;
     }
     .input {
-        width: 100px;
+        width: 90px;
     }
 }
 .input {
