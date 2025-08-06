@@ -26,7 +26,7 @@ body {
 
 .search {
     width: 90%;
-    margin:auto ;
+    margin-left:30px  ;
     padding: 10px 10px;
 }
 
@@ -57,7 +57,7 @@ input:focus {
 }
 
 .butt {
-    margin:10px 10px;
+    margin:10px 10px 10px;
     border-style: solid;
     border-color: #ba30af;
     border-radius: 40px;
