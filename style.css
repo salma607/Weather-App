@@ -36,6 +36,14 @@ body {
     margin: 15px;
 }
 
+@media (max-width: 600px) {
+    .bk {
+        margin: 5px;
+    }
+    .input {
+        width: 100px;
+    }
+}
 .input {
     height: 40px;
     width: 250px;
